@@ -27,8 +27,7 @@ Project 0 is my personal development lab focused on:
 An experimental infinite canvas application where users can create draggable
 notes in an endless workspace.
 
-Live Demo:
-https://ntsikelelovc.github.io/project-0/infinite-canvas-board/
+[🚀 Launch Infinite Canvas Board](https://ntsikelelovc.github.io/project-0/infinite-canvas-board/)
 
 Controls:
 • Click anywhere → Create note
