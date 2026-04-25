@@ -22,13 +22,19 @@ Project 0 is my personal development lab focused on:
 
 ## 📦 Systems
 
-### Infinite Scroll Board
+## Infinite Scroll Board
 
-An experimental infinite canvas application where users can create draggable notes in an endless workspace.
+An experimental infinite canvas application where users can create draggable
+notes in an endless workspace.
 
-Status: 🟡 In Progress
+Live Demo:
+https://ntsikelelovc.github.io/project-0/infinite-canvas-board/
 
-Repository: *(coming soon)*
+Controls:
+• Click anywhere → Create note
+• Drag notes → Move them
+• Mouse wheel → Zoom
+• Hold SPACE + drag → Move around the board
 
 ---
 
