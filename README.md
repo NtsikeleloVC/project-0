@@ -1,35 +1,54 @@
-# project-0
-This will be legendary in the AI Era
-
 # 🚀 Project 0
 
-**Project 0** is a collection of experimental software systems, tools, and AI projects that I am building to explore future technologies.
+**Building experimental systems for the AI era.**
 
-The goal is to create innovative tools, experiment with new ideas, and continuously improve engineering skills.
+Project 0 is my personal development lab where I design and build experimental software, AI tools, and creative web applications.
 
----
-
-## 🧠 Vision
-
-Project 0 is my personal development lab focused on:
-
-* Artificial Intelligence
-* Experimental Software Systems
-* Developer Tools
-* Creative Web Applications
+The goal is to explore new technologies, develop engineering skills, and create innovative systems.
 
 ---
 
-## 📦 Systems
+# 🧠 Vision
 
-## Infinite Scroll Board
+Project 0 focuses on building systems around:
 
-An experimental infinite canvas application where users can create draggable
-notes in an endless workspace.
+• Artificial Intelligence
+• Experimental Software Systems
+• Developer Tools
+• Creative Web Applications
 
-[🚀 Launch Infinite Canvas Board](https://ntsikelelovc.github.io/project-0/infinite-canvas-board/)
+This repository acts as a **hub for all projects created within Project 0**.
 
-Controls:
+---
+
+# 📦 Systems
+
+## 🌐 Pokémon Community Landing Page
+
+A modern Pokémon-themed landing page built with HTML and CSS.
+
+Features:
+• Hero section with Pikachu artwork
+• Background typography effect
+• Modern navigation bar
+• Email call-to-action UI
+
+🚀 [Live Demo]
+(https://ntsikelelovc.github.io/project-0/pokemon-landing-page/)
+
+Repository
+https://github.com/ntsikelelovc/pokemon-landing-page
+
+---
+
+## 🧩 Infinite Canvas Board
+
+An experimental infinite workspace where users can create draggable notes in an endless canvas.
+
+🚀 Launch Application
+https://ntsikelelovc.github.io/project-0/infinite-canvas-board/
+
+Controls
 • Click anywhere → Create note
 • Drag notes → Move them
 • Mouse wheel → Zoom
@@ -37,37 +56,39 @@ Controls:
 
 ---
 
-### Internet Culture Store
+## 🛍 Internet Culture Store
 
-A creative e-commerce store inspired by internet culture and modern web design.
+A creative e-commerce concept inspired by internet culture and modern web design.
 
 Status: 🟡 In Progress
-
 Repository: *(coming soon)*
 
 ---
 
-### AI Repository Intelligence
+## 🤖 AI Repository Intelligence
 
-A tool that analyzes GitHub repositories and explains architecture, files, and code logic.
+A system that analyzes GitHub repositories and explains architecture, files, and code logic.
 
 Status: 🔵 Planned
-
 Repository: *(coming soon)*
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
-* JavaScript
-* Python
-* React
-* Node.js
-* AI / Machine Learning
-* Web APIs
+Technologies used across Project 0 systems:
+
+• JavaScript
+• Python
+• React
+• Node.js
+• AI / Machine Learning
+• Web APIs
 
 ---
 
-## 🧪 Philosophy
+# 🧪 Philosophy
 
-Project 0 is about experimenting, learning, and building systems that push creativity and engineering forward.
+Project 0 is about experimentation, creativity, and continuous learning.
+
+The goal is to build systems that explore the future of software, AI, and developer tooling.
