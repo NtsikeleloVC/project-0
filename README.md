@@ -33,8 +33,7 @@ Features:
 • Modern navigation bar
 • Email call-to-action UI
 
-🚀 [Live Demo]
-(https://ntsikelelovc.github.io/project-0/pokemon-landing-page/)
+[🚀Live Demo](https://ntsikelelovc.github.io/project-0/pokemon-landing-page/)
 
 Repository
 https://github.com/ntsikelelovc/pokemon-landing-page
