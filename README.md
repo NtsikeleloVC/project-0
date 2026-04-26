@@ -35,8 +35,7 @@ Features:
 
 [🚀Live Demo](https://ntsikelelovc.github.io/project-0/pokemon-landing-page/)
 
-Repository
-https://github.com/ntsikelelovc/pokemon-landing-page
+[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/pokemon-landing-page)
 
 ---
 
