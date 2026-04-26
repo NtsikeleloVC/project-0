@@ -1,0 +1,173 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#a8cbb7;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#d8e9e0;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#2c7a5c;
+}
+
+nav a{
+margin:0 18px;
+text-decoration:none;
+color:#2c7a5c;
+font-weight:700;
+font-size:14px;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+nav a:hover{
+color:#fff700;
+}
+
+.hero-image img{
+filter:drop-shadow(0 25px 35px rgba(0,0,0,0.15));
+}
+
+button{
+transition:0.3s;
+}
+
+.nav-right{
+display:flex;
+align-items:center;
+}
+
+.nav-right input{
+padding:8px 10px;
+border-radius:20px;
+border:none;
+margin-right:10px;
+}
+
+.signin{
+background:#2c7a5c;
+color:white;
+border:none;
+padding:8px 18px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px 80px;
+position:relative;
+overflow:hidden;
+}
+
+.hero-text h1{
+font-size:100px;
+color:#2c7a5c;
+margin-bottom:20px;
+font-weight:900;
+letter-spacing:2px;
+line-height:1.1;
+
+text-shadow:
+0 4px 0 rgba(0,0,0,0.15),
+0 10px 20px rgba(0,0,0,0.08);
+}
+
+.hero-text p{
+margin-bottom:30px;
+font-size:18px;
+}
+
+.email-box{
+display:flex;
+justify-content:center;
+}
+
+.email-box button:hover{
+background:#1f5f46;
+}
+
+.email-box input{
+padding:12px;
+border-radius:25px 0 0 25px;
+border:none;
+width:250px;
+}
+
+.hero-image{
+flex:1;
+display:flex;
+justify-content:flex-end;
+align-items:center;
+}
+
+.hero-image img{
+width:100%;
+max-width:700px;
+transform: translateY(30px);
+animation: float 4s ease-in-out infinite;
+}
+.email-box button{
+padding:12px 20px;
+border:none;
+background:#2c7a5c;
+color:white;
+border-radius:0 25px 25px 0;
+cursor:pointer;
+}
+
+
+.bg-text{
+position:absolute;
+font-size:260px;
+font-weight:900;
+color:rgba(255,255,255,0.12);
+top:10%;
+right:-250px;
+transform:translateY(-50%);
+z-index:0;
+pointer-events:none;
+white-space:nowrap;
+}
+
+.hero-text,
+.hero-image{
+position:relative;
+z-index:2;
+text-align:center;
+}
+
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+.logo img{
+height:100px;
+cursor:pointer;
+}
