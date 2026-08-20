@@ -35,7 +35,25 @@ Features:
 
 [🚀Live Demo](https://ntsikelelovc.github.io/project-0/pokemon-landing-page/)
 
-[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/pokemon-landing-page)
+[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/pokemon-landing-pag)
+
+---
+
+# 📦 Systems
+
+## 🌐 Klezmer Website (v1.0)
+
+A modern Pokémon-themed landing page built with HTML, JS and CSS.
+
+Features:
+• Hero section with Pikachu artwork
+• Background typography effect
+• Modern navigation bar
+• Email call-to-action UI
+
+[🚀Live Demo](https://ntsikelelovc.github.io/project-0/Klezmer_Website/)
+
+[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/Klezmer_Website)
 
 ---
 
