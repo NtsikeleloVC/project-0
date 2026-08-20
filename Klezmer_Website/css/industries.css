@@ -1,0 +1,1123 @@
+/* =========================================================
+   INDUSTRIES HERO
+========================================================= */
+
+.industries-hero {
+
+    position: relative;
+
+    min-height: 630px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 35px 0 120px;
+
+    background-image:
+            linear-gradient(90deg,
+                rgba(8, 18, 35, 0.95),
+                rgba(8, 18, 35, 0.70),
+                rgba(8, 18, 35, 0.30)),
+            url("../assets/images/industries-bg.jpg");
+    
+        background-size: cover;
+    
+        background-position: center;
+
+    overflow: hidden;
+
+}
+
+
+.industries-hero-container {
+
+    position: relative;
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+}
+
+
+.industries-hero-content {
+
+    max-width: 900px;
+}
+
+
+.industries-hero .section-eyebrow {
+
+    display: inline-block;
+
+    margin-bottom: 24px;
+
+    color: #1267e8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+.industries-hero p {
+
+    max-width: 720px;
+
+    margin-top: 32px;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    color: #ffffff;
+
+}
+
+.industries-title {
+    margin: 0 0 35px;
+    font-size: 80px;
+    line-height: .94;
+    letter-spacing: -0.055em;
+    font-weight: 800;
+    max-width: 1000px; 
+    color: #ffffff;
+}
+
+/* =========================================================
+   INDUSTRIES GRID
+========================================================= */
+
+.industries-grid-section {
+
+    padding: 120px 0 140px;
+
+    background: #f7f9fc;
+
+}
+
+
+.industries-grid-container {
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+}
+
+
+.industries-heading {
+
+    max-width: 700px;
+
+    margin-bottom: 65px;
+
+}
+
+
+.industries-heading .section-eyebrow {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    color: #1267e8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.industries-heading h2 {
+
+    margin: 0;
+
+    font-size: clamp(42px, 5vw, 68px);
+
+    line-height: 1;
+
+    letter-spacing: -0.045em;
+
+    color: #080b12;
+
+}
+
+
+/* .industries-heading h2 span {
+
+    display: block;
+
+    background:
+        linear-gradient(90deg,
+            #1267e8,
+            #4f7cff);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+} */
+
+.industries-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 24px;
+
+}
+
+
+.industry-card {
+
+    position: relative;
+
+    padding: 34px;
+
+    min-height: 390px;
+
+    border-radius: 26px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5eaf1;
+
+    box-shadow:
+        0 18px 50px rgba(15, 23, 42, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+}
+
+
+.industry-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 28px 65px rgba(15, 23, 42, 0.10);
+
+}
+
+
+.industry-card-top {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    margin-bottom: 42px;
+
+}
+
+
+.industry-number {
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #a7b2c3;
+
+}
+
+
+.industry-icon {
+
+    width: 58px;
+
+    height: 58px;
+
+    display: grid;
+
+    place-items: center;
+
+    border-radius: 16px;
+
+    background: #eef6ff;
+
+    border: 1px solid #d7e9ff;
+
+}
+
+
+.industry-icon span {
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+    color: #1267e8;
+
+}
+
+.industry-label {
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: #1267e8;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.16em;
+
+}
+
+
+.industry-card h3 {
+
+    max-width: 470px;
+
+    margin: 0 0 18px;
+
+    font-size: 25px;
+
+    line-height: 1.2;
+
+    letter-spacing: -0.025em;
+
+    color: #0f172a;
+
+}
+
+
+.industry-card p {
+
+    max-width: 520px;
+
+    margin: 0;
+
+    font-size: 15px;
+
+    line-height: 1.75;
+
+    color: #64748b;
+
+}
+
+
+.industry-status {
+
+    display: inline-flex;
+
+    margin-top: 25px;
+
+    padding: 6px 10px;
+
+    border-radius: 999px;
+
+    background: #fff7ed;
+
+    color: #c2410c;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.12em;
+
+}
+
+@media (max-width: 750px) {
+
+    .industries-hero {
+
+        padding: 100px 0 80px;
+
+    }
+
+    .industries-hero-container,
+    .industries-grid-container {
+
+        width: calc(100% - 40px);
+
+    }
+
+    .industries-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .industry-card {
+
+        padding: 27px;
+
+        min-height: auto;
+
+    }
+
+    .industry-card h3 {
+
+        font-size: 22px;
+
+    }
+
+}
+
+/* =========================================================
+   DELIVERY CAPABILITIES
+========================================================= */
+
+.delivery-capabilities {
+
+    position: relative;
+
+    padding: 130px 0;
+
+    background: #f7f9fc;
+
+    overflow: hidden;
+
+}
+
+
+.delivery-capabilities::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+
+    height: 500px;
+
+    top: -250px;
+
+    left: -180px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(18, 103, 232, 0.08),
+            transparent 70%);
+
+    pointer-events: none;
+
+}
+
+
+.delivery-capabilities .container {
+
+    position: relative;
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+}
+
+/* =========================================================
+   DELIVERY HEADING
+========================================================= */
+
+.delivery-heading {
+
+    max-width: 760px;
+
+    margin-bottom: 65px;
+
+}
+
+
+.delivery-heading .eyebrow {
+
+    margin-bottom: 20px;
+
+    color: #1267e8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.delivery-heading h2 {
+
+    margin: 0;
+
+    font-size: clamp(42px, 5vw, 68px);
+
+    line-height: 1;
+
+    letter-spacing: -0.045em;
+
+    color: #080b12;
+
+}
+
+
+.delivery-heading p:last-child {
+
+    max-width: 680px;
+
+    margin-top: 28px;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    color: #64748b;
+
+}
+
+/* =========================================================
+   DELIVERY GRID
+========================================================= */
+
+.delivery-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 24px;
+
+}
+
+
+.delivery-card {
+
+    position: relative;
+
+    min-height: 410px;
+
+    padding: 34px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    border-radius: 26px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5eaf1;
+
+    box-shadow:
+        0 18px 50px rgba(15, 23, 42, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+
+}
+
+
+.delivery-card:hover {
+
+    transform: translateY(-6px);
+
+    border-color: #d5e4f8;
+
+    box-shadow:
+        0 28px 65px rgba(15, 23, 42, 0.10);
+
+}
+
+/* =========================================================
+   CARD TOP
+========================================================= */
+
+.delivery-card-top {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+
+}
+
+
+.delivery-number {
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    color: #a7b2c3;
+
+}
+
+
+.delivery-icon {
+
+    width: 58px;
+
+    height: 58px;
+
+    display: grid;
+
+    place-items: center;
+
+    border-radius: 16px;
+
+    background: #eef6ff;
+
+    border: 1px solid #d7e9ff;
+
+}
+
+
+.delivery-icon img {
+
+    width: 29px;
+
+    height: 29px;
+
+    object-fit: contain;
+
+}
+
+/* =========================================================
+   CARD CONTENT
+========================================================= */
+
+.delivery-label {
+
+    display: block;
+
+    margin-bottom: 14px;
+
+    color: #1267e8;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.16em;
+
+}
+
+
+.delivery-card h3 {
+
+    max-width: 470px;
+
+    margin: 0 0 17px;
+
+    font-size: 25px;
+
+    line-height: 1.2;
+
+    letter-spacing: -0.025em;
+
+    color: #0f172a;
+
+}
+
+
+.delivery-card p {
+
+    margin: 0;
+
+    max-width: 500px;
+
+    font-size: 14px;
+
+    line-height: 1.75;
+
+    color: #64748b;
+
+}
+
+/* =========================================================
+   CARD LINK
+========================================================= */
+
+.delivery-link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    width: fit-content;
+
+    margin-top: auto;
+
+    padding-top: 28px;
+
+    color: #1267e8;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    text-decoration: none;
+
+}
+
+
+.delivery-link span {
+
+    font-size: 17px;
+
+    transition:
+        transform 0.2s ease;
+
+}
+
+
+.delivery-link:hover span {
+
+    transform: translateX(5px);
+
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .delivery-capabilities {
+
+        padding: 100px 0;
+
+    }
+
+
+    .delivery-capabilities .container {
+
+        width: calc(100% - 40px);
+
+    }
+
+
+    .delivery-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .delivery-capabilities .container {
+
+        width: calc(100% - 32px);
+
+    }
+
+
+    .delivery-card {
+
+        min-height: auto;
+
+        padding: 27px;
+
+    }
+
+
+    .delivery-card h3 {
+
+        font-size: 22px;
+
+    }
+
+}
+
+/* =========================================================
+   PROJECT CTA
+========================================================= */
+
+.project-cta {
+
+    position: relative;
+
+    padding: 130px 0;
+
+    background: #081223;
+
+    overflow: hidden;
+
+}
+
+
+.project-cta::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+
+    height: 650px;
+
+    top: -350px;
+
+    right: -180px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(37, 104, 232, 0.20),
+            transparent 70%);
+
+    pointer-events: none;
+
+}
+
+
+.project-cta::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+
+    height: 500px;
+
+    bottom: -300px;
+
+    left: -200px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(39, 185, 214, 0.08),
+            transparent 70%);
+
+    pointer-events: none;
+
+}
+
+
+.project-cta-container {
+
+    position: relative;
+
+    z-index: 1;
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1fr) minmax(360px, 0.75fr);
+
+    gap: 90px;
+
+    align-items: center;
+
+}
+
+/* =========================================================
+   CTA CONTENT
+========================================================= */
+
+.project-cta-content {
+
+    max-width: 680px;
+
+}
+
+
+.project-cta-content .eyebrow {
+
+    margin-bottom: 22px;
+
+    color: #62a0ff;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.project-cta-content h2 {
+
+    margin: 0;
+
+    font-size: clamp(44px, 5vw, 70px);
+
+    line-height: 1;
+
+    letter-spacing: -0.045em;
+
+    color: #ffffff;
+
+}
+
+
+.project-cta-content h2 .gradient-text {
+
+    display: block;
+
+}
+
+
+.project-cta-content>p:not(.eyebrow) {
+
+    max-width: 620px;
+
+    margin-top: 28px;
+
+    color: #a9b7ca;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+}
+
+
+.project-cta-actions {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 14px;
+
+    margin-top: 35px;
+
+}
+
+/* =========================================================
+   CTA VISUAL
+========================================================= */
+
+.project-cta-visual {
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+.project-cta-card {
+
+    width: 100%;
+
+    max-width: 420px;
+
+    padding: 35px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(145deg,
+            rgba(255, 255, 255, 0.10),
+            rgba(255, 255, 255, 0.035));
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(16px);
+
+}
+
+
+.project-cta-card-label {
+
+    display: block;
+
+    margin-bottom: 28px;
+
+    color: #62a0ff;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.22em;
+
+}
+
+
+.project-cta-card strong {
+
+    display: block;
+
+    color: #ffffff;
+
+    font-size: 32px;
+
+    line-height: 1.15;
+
+    letter-spacing: -0.03em;
+
+}
+
+
+.project-cta-line {
+
+    width: 100%;
+
+    height: 1px;
+
+    margin: 30px 0 10px;
+
+    background:
+        rgba(255, 255, 255, 0.10);
+
+}
+
+
+.project-cta-points {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.project-cta-points span {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 15px 0;
+
+    color: #d5deeb;
+
+    font-size: 13px;
+
+}
+
+
+.project-cta-points i {
+
+    display: grid;
+
+    place-items: center;
+
+    width: 26px;
+
+    height: 26px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(18, 103, 232, 0.18);
+
+    color: #6da8ff;
+
+    font-size: 9px;
+
+    font-style: normal;
+
+    font-weight: 700;
+
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 850px) {
+
+    .project-cta-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .project-cta {
+
+        padding: 90px 0;
+
+    }
+
+
+    .project-cta-container {
+
+        width: calc(100% - 32px);
+
+    }
+
+
+    .project-cta-actions {
+
+        flex-direction: column;
+
+    }
+
+
+    .project-cta-actions .btn {
+
+        width: 100%;
+
+        justify-content: center;
+
+    }
+
+
+    .project-cta-card {
+
+        padding: 28px;
+
+    }
+
+}

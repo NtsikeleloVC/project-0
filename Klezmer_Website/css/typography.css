@@ -1,0 +1,52 @@
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.7;
+  background: var(--bg);
+  
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  line-height: 1.12;
+}
+
+h1 {
+  font-size: clamp(2.45rem, 4.8vw, 3.7rem);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.08rem;
+  margin-bottom: 0.55rem;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  font-size: 1.02rem;
+  max-width: 62ch;
+}

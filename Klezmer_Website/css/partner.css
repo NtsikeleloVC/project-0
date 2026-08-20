@@ -1,0 +1,662 @@
+/* =========================================================
+   PARTNERS HERO
+========================================================= */
+
+.partners-hero {
+
+    position: relative;
+
+    padding: 35px 0 120px;
+
+    min-height: 630px;
+
+    display: flex;
+
+    align-items: center;
+
+            background-image:
+                linear-gradient(90deg,
+                    rgba(8, 18, 35, 0.95),
+                    rgba(8, 18, 35, 0.70),
+                    rgba(8, 18, 35, 0.30)),
+                url("../images/Services Background.jpg");
+    
+            background-size: cover;
+    
+            background-position: center;
+
+
+    overflow: hidden;
+
+}
+
+
+.partners-hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+
+    height: 650px;
+
+    top: -350px;
+
+    right: -180px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(37, 104, 232, 0.10),
+            transparent 70%);
+
+    pointer-events: none;
+
+}
+
+
+.partners-hero-container {
+
+    position: relative;
+
+    z-index: 1;
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+}
+
+
+.partners-hero-content {
+
+    max-width: 900px;
+
+}
+
+
+.partners-hero .eyebrow {
+
+    margin-bottom: 24px;
+
+    color: #1267e8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.partners-hero h1 .gradient-text {
+
+    display: block;
+
+}
+
+
+.partners-hero-text {
+
+    max-width: 720px;
+
+    margin-top: 32px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+}
+
+.partners-title{
+    
+            margin: 0 0 35px;
+            font-size: 80px;
+            line-height: .94;
+            letter-spacing: -0.055em;
+            font-weight: 800;
+            max-width: 1000px;
+            color:#ffffff;
+        
+}
+
+@media (max-width: 650px) {
+
+    .partners-hero {
+
+        padding: 100px 0 85px;
+
+    }
+
+
+    .partners-hero-container {
+
+        width: calc(100% - 32px);
+
+    }
+
+
+    .partners-hero h1 {
+
+        font-size: 46px;
+
+    }
+
+
+    .partners-hero-text {
+
+        font-size: 16px;
+
+    }
+
+}
+
+/* =========================================================
+   PARTNER ECOSYSTEM
+========================================================= */
+
+.partner-ecosystem {
+
+    padding: 110px 0;
+
+    background: #f7f9fc;
+
+}
+
+
+.partner-ecosystem-container {
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 100px;
+
+    align-items: start;
+
+}
+
+
+.partner-ecosystem-heading .eyebrow {
+
+    margin-bottom: 20px;
+
+    color: #1267e8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.partner-ecosystem-heading h2 {
+
+    margin: 0;
+
+    color: #080b12;
+
+    font-size: clamp(42px, 5vw, 64px);
+
+    line-height: 1;
+
+    letter-spacing: -0.045em;
+
+}
+
+
+.partner-ecosystem-heading h2 .gradient-text {
+
+    display: block;
+
+}
+
+
+.partner-ecosystem-content {
+
+    padding-top: 15px;
+
+}
+
+
+.partner-ecosystem-content p {
+
+    margin: 0 0 25px;
+
+    color: #64748b;
+
+    font-size: 16px;
+
+    line-height: 1.85;
+
+}
+
+
+.partner-ecosystem-content p:last-child {
+
+    margin-bottom: 0;
+
+}
+
+@media (max-width: 800px) {
+
+    .partner-ecosystem {
+
+        padding: 90px 0;
+
+    }
+
+
+    .partner-ecosystem-container {
+
+        width: calc(100% - 32px);
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
+    }
+
+}
+
+/* =========================================================
+   PARTNER LIST
+========================================================= */
+
+.partners-list {
+
+    padding: 120px 0;
+
+    background: #ffffff;
+
+}
+
+
+.partners-list-container {
+
+    width: min(1200px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+}
+
+
+.partners-list-heading {
+
+    max-width: 700px;
+
+    margin-bottom: 60px;
+
+}
+
+
+.partners-list-heading .eyebrow {
+
+    margin-bottom: 20px;
+
+    color: #1267e8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.partners-list-heading h2 {
+
+    margin: 0;
+
+    color: #080b12;
+
+    font-size: clamp(42px, 5vw, 64px);
+
+    line-height: 1;
+
+    letter-spacing: -0.045em;
+
+}
+
+
+.partners-list-heading h2 .gradient-text {
+
+    display: block;
+
+}
+
+
+.partners-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 22px;
+
+}
+
+/* =========================================================
+   PARTNER CARDS
+========================================================= */
+
+.partner-card {
+
+    min-height: 390px;
+
+    padding: 30px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 24px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 18px 50px rgba(15, 23, 42, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+}
+
+
+.partner-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 28px 65px rgba(15, 23, 42, 0.09);
+
+}
+
+
+.partner-logo-placeholder {
+
+    width: 100%;
+
+    height: 110px;
+
+    display: grid;
+
+    place-items: center;
+
+    margin-bottom: 30px;
+
+    border-radius: 16px;
+
+    background: #f7f9fc;
+
+    border: 1px dashed #cbd5e1;
+
+    color: #94a3b8;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.15em;
+
+}
+
+
+.partner-card-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+
+}
+
+
+.partner-status {
+
+    margin-bottom: 12px;
+
+    color: #1267e8;
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.16em;
+
+}
+
+
+.partner-card h3 {
+
+    margin: 0 0 14px;
+
+    color: #0f172a;
+
+    font-size: 23px;
+
+    line-height: 1.2;
+
+}
+
+
+.partner-card p {
+
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.75;
+
+}
+
+
+.partner-services {
+
+    margin-top: auto;
+
+    padding-top: 25px;
+
+    color: #475569;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+}
+
+@media (max-width: 850px) {
+
+    .partners-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .partners-list {
+
+        padding: 90px 0;
+
+    }
+
+
+    .partners-list-container {
+
+        width: calc(100% - 32px);
+
+    }
+
+}
+
+/* =========================================================
+   PARTNERS CTA
+========================================================= */
+
+.partners-cta {
+
+    position: relative;
+
+    padding: 120px 0;
+
+    background: #081223;
+
+    overflow: hidden;
+
+}
+
+
+.partners-cta::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+
+    height: 650px;
+
+    top: -400px;
+
+    right: -180px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(37, 104, 232, 0.20),
+            transparent 70%);
+
+}
+
+
+.partners-cta-container {
+
+    position: relative;
+
+    z-index: 1;
+
+    width: min(1100px, calc(100% - 80px));
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+
+.partners-cta-content {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+
+
+.partners-cta .eyebrow {
+
+    margin-bottom: 22px;
+
+    color: #62a0ff;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.22em;
+
+    text-transform: uppercase;
+
+}
+
+
+.partners-cta h2 {
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: clamp(45px, 5.5vw, 72px);
+
+    line-height: 1;
+
+    letter-spacing: -0.05em;
+
+}
+
+
+.partners-cta h2 .gradient-text {
+
+    display: block;
+
+}
+
+
+.partners-cta p:not(.eyebrow) {
+
+    max-width: 600px;
+
+    margin: 28px auto 35px;
+
+    color: #a9b7ca;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+}
+
+@media (max-width: 600px) {
+
+    .partners-cta {
+
+        padding: 90px 0;
+
+    }
+
+
+    .partners-cta-container {
+
+        width: calc(100% - 32px);
+
+    }
+
+
+    .partners-cta h2 {
+
+        font-size: 44px;
+
+    }
+
+}
