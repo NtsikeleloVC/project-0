@@ -39,17 +39,16 @@ Features:
 
 ---
 
-# 📦 Systems
+## 🌐 Klezmer Website - Technology Solutions Website (v1.0)
 
-## 🌐 Klezmer Website (v1.0)
-
-A modern Pokémon-themed landing page built with HTML, JS and CSS.
+A modern technology company website built with HTML, CSS and JavaScript.
 
 Features:
-• Hero section with Pikachu artwork
-• Background typography effect
-• Modern navigation bar
-• Email call-to-action UI
+• Modern tech-focused hero section
+• Responsive navigation and mobile-friendly layout
+• IT services and solutions showcase
+• Interactive call-to-action sections
+• Professional Klezmer branding and visual design
 
 [🚀Live Demo](https://ntsikelelovc.github.io/project-0/Klezmer_Website/)
 
