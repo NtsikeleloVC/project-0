@@ -35,7 +35,7 @@ Features:
 
 [🚀Live Demo](https://ntsikelelovc.github.io/project-0/pokemon-landing-page/)
 
-[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/pokemon-landing-pag)
+[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/pokemon-landing-page)
 
 ---
 
@@ -53,6 +53,26 @@ Features:
 [🚀Live Demo](https://ntsikelelovc.github.io/project-0/Klezmer_Website/)
 
 [Repository](https://github.com/NtsikeleloVC/project-0/tree/main/Klezmer_Website)
+
+---
+
+## 🔥 AI Roast My Code - AI Code Analysis & Roasting Tool (v1.0)
+
+A fun AI-powered developer tool built with HTML, CSS and JavaScript.
+
+Features:
+• Interactive code submission interface
+• Multiple programming language selections
+• Different AI roast personalities
+• Code scoring and analysis dashboard
+• Issues and severity detection
+• Improvement suggestions
+• Fire-inspired branding and visual design
+• Interactive JavaScript functionality
+
+[🚀Live Demo](https://ntsikelelovc.github.io/project-0/AI%20Roast%20My%20Code/)
+
+[Repository](https://github.com/NtsikeleloVC/project-0/tree/main/AI%20Roast%20My%20Code)
 
 ---
 
