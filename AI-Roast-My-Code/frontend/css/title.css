@@ -1,0 +1,92 @@
+.roast-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+
+    gap: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+
+    letter-spacing: -2.5px;
+}
+
+.random-words{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.roast-word {
+
+    position: relative;
+        display: inline-block;
+
+    background: linear-gradient(180deg,
+                #ffb000 0%,
+                #ff6500 45%,
+                #ff2b00 100%);
+
+                background-size: 100% 200%;
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+        animation: fireFlicker 10s infinite;
+}
+
+@keyframes fireFlicker {
+
+    0% {
+        background-position: 50% 100%;
+        filter:
+            drop-shadow(0 0 3px rgba(255, 60, 0, 0.35)) brightness(1);
+        transform: scale(1);
+    }
+
+    15% {
+        background-position: 45% 70%;
+        filter:
+            drop-shadow(0 0 8px rgba(255, 90, 0, 0.6)) brightness(1.08);
+        transform: scale(1.008);
+    }
+
+    30% {
+        background-position: 55% 35%;
+        filter:
+            drop-shadow(0 0 5px rgba(255, 50, 0, 0.45)) brightness(0.98);
+        transform: scale(0.998);
+    }
+
+    47% {
+        background-position: 48% 85%;
+        filter:
+            drop-shadow(0 0 12px rgba(255, 120, 0, 0.75)) brightness(1.12);
+        transform: scale(1.012);
+    }
+
+    63% {
+        background-position: 53% 45%;
+        filter:
+            drop-shadow(0 0 4px rgba(255, 50, 0, 0.4)) brightness(0.96);
+        transform: scale(0.997);
+    }
+
+    78% {
+        background-position: 47% 15%;
+        filter:
+            drop-shadow(0 0 9px rgba(255, 80, 0, 0.65)) brightness(1.06);
+        transform: scale(1.006);
+    }
+
+    100% {
+        background-position: 50% 100%;
+        filter:
+            drop-shadow(0 0 3px rgba(255, 60, 0, 0.35)) brightness(1);
+        transform: scale(1);
+    }
+}
