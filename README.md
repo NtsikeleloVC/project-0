@@ -70,7 +70,7 @@ Features:
 • Fire-inspired branding and visual design
 • Interactive JavaScript functionality
 
-[🚀Live Demo](https://ntsikelelovc.github.io/project-0/AI-Roast-My-Code/)
+[🚀Live Demo](https://ntsikelelovc.github.io/project-0/AI-Roast-My-Code/frontend)
 
 [Repository](https://github.com/NtsikeleloVC/project-0/tree/main/AI-Roast-My-Code)
 
