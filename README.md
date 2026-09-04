@@ -76,21 +76,6 @@ Features:
 
 ---
 
-## 🧩 Infinite Canvas Board
-
-An experimental infinite workspace where users can create draggable notes in an endless canvas.
-
-🚀 Launch Application
-https://ntsikelelovc.github.io/project-0/infinite-canvas-board/
-
-Controls
-• Click anywhere → Create note
-• Drag notes → Move them
-• Mouse wheel → Zoom
-• Hold SPACE + drag → Move around the board
-
----
-
 ## 🛍 Internet Culture Store
 
 A creative e-commerce concept inspired by internet culture and modern web design.
